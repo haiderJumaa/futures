@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الرئيسية - أكاديمية المستقبل</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo.png" alt="شعار أكاديمية المستقبل" class="logo">
+        </div>
+        <div class="title-container">
+            <h1>أكاديمية المستقبل</h1>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="file:///C:/Users/%D8%AD%D9%8A%D8%AF%D8%B1%D8%B1/Desktop/fu/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9.html" class="active">الرئيسية</a></li>
+            <li><a href="file:///C:/Users/%D8%AD%D9%8A%D8%AF%D8%B1%D8%B1/Desktop/fu/%D8%A7%D9%84%D9%88%D8%B1%D8%B4%D8%A7%D8%AA.html">الورشات</a></li>
+            <li><a href="file:///C:/Users/%D8%AD%D9%8A%D8%AF%D8%B1%D8%B1/Desktop/fu/%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84.html">التسجيل</a></li>
+            <li><a href="file:///C:/Users/%D8%AD%D9%8A%D8%AF%D8%B1%D8%B1/Desktop/fu/%D9%85%D9%86_%D9%86%D8%AD%D9%86.html">من نحن</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- عرض الشرائح -->
+        <div class="fu-slideshow-container">
+            <div class="fu-slide fu-fade">
+                <img src="image1.jpg" alt="صورة 1">
+                <div class="fu-caption"> جزء من الجانب العملي داخل صالات العمليات للتخدير</div>
+            </div>
+        
+            <div class="fu-slide fu-fade">
+                <img src="image2.jpg" alt="صورة 2">
+                <div class="fu-caption">الجانب النضري للتخدير</div>
+            </div>
+        
+            <div class="fu-slide fu-fade">
+                <img src="image3.jpg" alt="صورة 3">
+                <div class="fu-caption">جزء من الجانب العملي للأشعة</div>
+            </div>
+        
+            <a class="fu-prev" onclick="fuPlusSlides(-1)">&#10094;</a>
+            <a class="fu-next" onclick="fuPlusSlides(1)">&#10095;</a>
+        </div>
+        
+        <div class="fu-dots-container">
+            <span class="fu-dot" onclick="fuCurrentSlide(1)"></span>
+            <span class="fu-dot" onclick="fuCurrentSlide(2)"></span>
+            <span class="fu-dot" onclick="fuCurrentSlide(3)"></span>
+        </div>
+        <div class="news-ticker">
+            <p>آخر الأخبار: أكاديمية المستقبل تعلن عن دورات جديدة في مجال التخدير والاشعة. لا تفوتوا الفرصة!</p>
+        </div>
+
+        <!-- قسم النشاطات -->
+        <section class="activities">
+            <h2>نشاطات الأكاديمية</h2>
+            <div class="activity-grid">
+                <div class="activity-item">
+                    <img src="activity1.jpg" alt="نشاط 1">
+                    <p>الجانب العملي لطلاب التخدير</p>
+                </div>
+                <div class="activity-item">
+                    <img src="activity2.jpg" alt="نشاط 2">
+                    <p>محاضرة حول الأشعة السينية</p>
+                </div>
+                <div class="activity-item">
+                    <img src="activity3.jpg" alt="نشاط 3">
+                    <p>ورشة عمل في الإسعافات الأولية</p>
+                </div>
+                <div class="activity-item">
+                    <img src="activity4.jpg" alt="نشاط 4">
+                    <p>تسليم الشهادات للدورات</p>
+                </div>
+                <div class="activity-item">
+                    <img src="activity5.jpg" alt="نشاط 5">
+                    <p>الجانب النظري للدورات</p>
+                </div>
+                <div class="activity-item">
+                    <img src="activity6.jpg" alt="نشاط 6">
+                    <p>ورشات تطوير المهارات الطبية</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- زر التسجيل العائم -->
+    <a href="https://forms.gle/YTL8Lm4GUCnbDDei7" class="floating-button">تسجيل الآن</a>
+
+    <footer class="footer">
+        <p>تواصل معنا:</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/future_teamftad?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                <img src="instagram.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://t.me/FA_Support1" target="_blank">
+                <img src="telegram.png" alt="Telegram" class="social-icon">
+            </a>
+            <a href="https://wa.me/9647774483995
+            " target="_blank">
+                <img src="whatsapp.png" alt="WhatsApp" class="social-icon">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61561963521721" target="_blank">
+                <img src="facebook.png" alt="Facebook" class="social-icon">
+            </a>
+        </div>
+        <p>جميع الحقوق محفوظة لأكاديمية المستقبل</p>
+    </footer>
+    
+    <script src="script1.js"></script>
+</body>
+</html>

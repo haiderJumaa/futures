@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التسجيل - أكاديمية المستقبل</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بحث الطلاب - الأكاديمية الطبية المتقدمة</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header class="header">
+        <div class="logo-container">
+            <img src="logo.png" alt="شعار أكاديمية المستقبل" class="logo">
+        </div>
+        <div class="title-container">
+            <h1>أكاديمية المستقبل</h1>
+        </div>
+    </header>
+<nav class="nav">
+        <ul>
+            <li><a href="file:///C:/Users/%D8%AD%D9%8A%D8%AF%D8%B1%D8%B1/Desktop/fu/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9.html">الرئيسية</a></li>
+            <li><a href="file:///C:/Users/%D8%AD%D9%8A%D8%AF%D8%B1%D8%B1/Desktop/fu/%D8%A7%D9%84%D9%88%D8%B1%D8%B4%D8%A7%D8%AA.html">الورشات</a></li>
+            <li><a href="file:///C:/Users/%D8%AD%D9%8A%D8%AF%D8%B1%D8%B1/Desktop/fu/%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84.html" class="active">التسجيل</a></li>
+            <li><a href="file:///C:/Users/%D8%AD%D9%8A%D8%AF%D8%B1%D8%B1/Desktop/fu/%D9%85%D9%86_%D9%86%D8%AD%D9%86.html">من نحن</a></li>
+        </ul>
+    </nav>
+   <main>
+        <section class="registration">
+            <h2>التسجيل في الدورات</h2>
+            <div class="image-gallery">
+                <div class="image-item">
+                    <img src="course1.jpg" alt="دورة 1" class="course-image">
+                    <h2>كورس التخدير الوزاري</h2>
+                    <div class="image-details">  كورس شامل للمنهج الوزاري لقسم التخدير  حضورياً  و ويتوفر ايضاً الكترونياً لمن يرغب في ذلك وهناك ملازم موضحة وكوزات يومية بالإضافة الى ورشات تدريبية متخصصة تقام لأول مره في كركوك 
+                         زيارات ميدانية للمستشفيات: تطبيق عملي في صالات العمليات.
+📚 تدريب على التنبيب الرغامي: اكتساب مهارات أساسية للتخدير.
+💉 تركيب الكانيولا: تعلم الطريقة المثلى عملياً.
+
+                    </div>
+                </div>
+
+                <div class="image-item">
+                    <img src="course2.jpg" alt="دورة 2" class="course-image">
+                    <h2>كورس الاشعة والمفراس</h2>
+                    <div class="image-details">تفاصيل الكورس:
+                        أساسيات التشريح
+                        المصطلحات الطبية الشعاعية
+                        فيزياء الأشعة
+                        أشعة X-ray (مكونات الجهاز، الاستخدامات، الوقاية)
+                        وضعيات التصوير
+                        مقدمة عن CT scan
+                        الجانب العملي:
+                        تدريب ميداني في مراكز طبية
+                        التعرف على غرفتي X-ray و CT واستخدامهما</div>
+                </div>
+
+                <div class="image-item">
+                    <img src="course3.jpg" alt="دورة 3" class="course-image">
+                    <h2>ورشة تدريب </h2>
+                    <div class="image-details">تعلن نقابة ذوي المهن الصحية بالتعاون مع أكاديمية المستقبل عن تنظيم ورشة تدريبية متخصصة في مجال التخدير والعناية المركزة داخل قاعات النقابة.
+
+                        محاور الورشة:
+                        - قراءة الطبلة و الموافقات الطبية.
+                        - مضاعفات أدوية التخدير وضبط الجرعات.
+                        - تنبيب الرغامي تدريب عملي شامل.
+                        - استخدام جهاز التخدير شرح تفصيلي.
+                        - للإجراءات قبل وبعد العمليات.
+                        - كيفية ملاحظة علامات الإفاقة والتعامل مع المضاعفات.
+                        - زيارة علمية إلى صالات العمليات (اختياري للمشاركين الراغبين).</div>
+                        
+                </div>
+            </div>
+
+            <a href="https://forms.gle/YTL8Lm4GUCnbDDei7" class="register-button">سجل الآن</a>
+        </section>
+    </main>
+    <div class="container">
+        <div class="search-box">
+            <h1>أكاديمية المستقبل</h1>
+            <p class="subtitle">نظام توثيق الشهادة</p>
+            <div class="search-input">
+                <input type="text" id="searchInput" placeholder="أدخل كود الشهادة">
+                <button id="searchButton" class="search-btn">
+                    <span class="search-text">بحث</span>
+                    <span class="search-icon"></span>
+                </button>
+            </div>
+            <div id="resultBox" class="result-box"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+<footer class="footer">
+        <h1>للأستفسار</h1>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/future_teamftad?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                <img src="instagram.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://t.me/FA_Support1" target="_blank">
+                <img src="telegram.png" alt="Telegram" class="social-icon">
+            </a>
+            <a href="https://wa.me/9647774483995" target="_blank">
+                <img src="whatsapp.png" alt="WhatsApp" class="social-icon">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61561963521721" target="_blank">
+                <img src="facebook.png" alt="Facebook" class="social-icon">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
